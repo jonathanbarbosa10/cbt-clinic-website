@@ -4,20 +4,20 @@ export function Methodology() {
     const steps = [
         {
             id: 1,
-            title: "Identify",
-            description: "We work together to uncover the thought patterns and behaviors that may be holding you back.",
+            title: "Identificar",
+            description: "Trabalhamos juntos para descobrir os padrões de pensamento e comportamentos que podem estar te limitando.",
             icon: Search,
         },
         {
             id: 2,
-            title: "Restructure",
-            description: "Learn practical tools to challenge negative thoughts and view situations with greater clarity.",
+            title: "Reestruturar",
+            description: "Aprenda ferramentas práticas para desafiar pensamentos negativos e ver as situações com maior clareza.",
             icon: BrainCircuit,
         },
         {
             id: 3,
-            title: "Act",
-            description: "Implement new strategies in your daily life to build resilience and achieve lasting change.",
+            title: "Agir",
+            description: "Implemente novas estratégias em sua vida diária para construir resiliência e alcançar mudanças duradouras.",
             icon: Footprints,
         },
     ]
@@ -27,10 +27,10 @@ export function Methodology() {
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center mb-16">
                     <h2 className="text-3xl font-bold tracking-tight text-primary-dark sm:text-4xl font-heading mb-4">
-                        How CBT Works
+                        Como funciona a TCC
                     </h2>
                     <p className="text-lg leading-8 text-slate-600 font-body">
-                        Cognitive Behavioral Therapy is a structured, practical approach that helps you solve current problems and change unhelpful thinking and behavior.
+                        A Terapia Cognitivo-Comportamental é uma abordagem estruturada e prática que ajuda a resolver problemas atuais e mudar pensamentos e comportamentos improdutivos.
                     </p>
                 </div>
 

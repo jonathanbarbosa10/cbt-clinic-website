@@ -1,61 +1,68 @@
-import { MapPin, Mail, Phone, MessageCircle } from "lucide-react"
+import { MapPin, Phone, Mail, Clock } from "lucide-react"
 import { Button } from "../ui/Button"
 
 export function Contact() {
     return (
-        <section id="contact" className="bg-slate-50 py-24 sm:py-32">
+        <section id="contact" className="bg-white py-24 sm:py-32 border-t border-slate-100">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
 
                     {/* Contact Info */}
                     <div>
                         <h2 className="text-3xl font-bold tracking-tight text-primary-dark sm:text-4xl font-heading mb-6">
-                            Get in Touch
+                            Entre em Contato
                         </h2>
-                        <p className="text-lg leading-8 text-slate-600 mb-12">
-                            Ready to take the first step? Schedule a consultation or reach out with any questions.
-                            I'm here to support your journey.
+                        <p className="text-lg leading-8 text-slate-600 mb-10 font-body">
+                            Pronto para dar o próximo passo? Entre em contato para agendar sua consulta inicial ou tirar dúvidas.
                         </p>
 
                         <div className="space-y-8">
-                            <div className="flex items-start gap-4">
-                                <div className="flex-shrink-0 flex h-10 w-10 items-center justify-center rounded-lg bg-white shadow-sm text-primary">
-                                    <MapPin className="h-5 w-5" />
+                            <div className="flex gap-4">
+                                <div className="flex-none flex items-center justify-center h-12 w-12 rounded-full bg-secondary/10 text-primary">
+                                    <MapPin className="h-6 w-6" />
                                 </div>
                                 <div>
-                                    <h3 className="text-base font-semibold leading-7 text-primary-dark">Office Location</h3>
-                                    <p className="mt-1 text-slate-600">
-                                        123 Therapy Avenue, Suite 400<br />
-                                        Business District, City, ST 12345
-                                    </p>
+                                    <h3 className="text-lg font-semibold text-primary-dark">Localização</h3>
+                                    <p className="text-slate-600">Rua Exemplo, 123, Sala 405</p>
+                                    <p className="text-slate-600">Bairro Central, Cidade, UF</p>
                                 </div>
                             </div>
 
-                            <div className="flex items-start gap-4">
-                                <div className="flex-shrink-0 flex h-10 w-10 items-center justify-center rounded-lg bg-white shadow-sm text-primary">
-                                    <Mail className="h-5 w-5" />
+                            <div className="flex gap-4">
+                                <div className="flex-none flex items-center justify-center h-12 w-12 rounded-full bg-secondary/10 text-primary">
+                                    <Phone className="h-6 w-6" />
                                 </div>
                                 <div>
-                                    <h3 className="text-base font-semibold leading-7 text-primary-dark">Email</h3>
-                                    <p className="mt-1 text-slate-600">contact@drclinic.com</p>
+                                    <h3 className="text-lg font-semibold text-primary-dark">Telefone</h3>
+                                    <p className="text-slate-600">(11) 99999-9999</p>
+                                    <p className="text-sm text-slate-500">Disponível no WhatsApp</p>
                                 </div>
                             </div>
 
-                            <div className="flex items-start gap-4">
-                                <div className="flex-shrink-0 flex h-10 w-10 items-center justify-center rounded-lg bg-white shadow-sm text-primary">
-                                    <Phone className="h-5 w-5" />
+                            <div className="flex gap-4">
+                                <div className="flex-none flex items-center justify-center h-12 w-12 rounded-full bg-secondary/10 text-primary">
+                                    <Mail className="h-6 w-6" />
                                 </div>
                                 <div>
-                                    <h3 className="text-base font-semibold leading-7 text-primary-dark">Phone</h3>
-                                    <p className="mt-1 text-slate-600">+1 (555) 123-4567</p>
+                                    <h3 className="text-lg font-semibold text-primary-dark">Email</h3>
+                                    <p className="text-slate-600">contato@drnome.com</p>
+                                </div>
+                            </div>
+
+                            <div className="flex gap-4">
+                                <div className="flex-none flex items-center justify-center h-12 w-12 rounded-full bg-secondary/10 text-primary">
+                                    <Clock className="h-6 w-6" />
+                                </div>
+                                <div>
+                                    <h3 className="text-lg font-semibold text-primary-dark">Horário de Atendimento</h3>
+                                    <p className="text-slate-600">Seg - Sex: 9h às 18h</p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="mt-12">
-                            <Button size="lg" className="w-full sm:w-auto bg-green-600 hover:bg-green-700 text-white shadow-lg shadow-green-600/20">
-                                <MessageCircle className="mr-2 h-5 w-5" />
-                                Message on WhatsApp
+                            <Button size="lg" className="w-full sm:w-auto bg-[#25D366] hover:bg-[#128C7E] text-white border-transparent">
+                                Agendar via WhatsApp
                             </Button>
                         </div>
                     </div>
@@ -63,15 +70,11 @@ export function Contact() {
                     {/* Map Placeholder */}
                     <div className="h-full min-h-[400px] w-full rounded-2xl bg-white p-4 shadow-lg ring-1 ring-slate-900/5">
                         <div className="h-full w-full rounded-xl bg-slate-100 flex items-center justify-center relative overflow-hidden group">
-                            <div className="absolute inset-0 bg-[url('https://api.mapbox.com/styles/v1/mapbox/light-v10/static/-74.006,40.7128,12,0/800x600?access_token=YOUR_TOKEN')] bg-cover bg-center opacity-50 grayscale transition-all group-hover:grayscale-0"></div>
-                            {/* Note: Standard map styling. Using a simple text here for the placeholder artifact. */}
-                            <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
-                                <MapPin className="h-12 w-12 text-primary mb-4" />
-                                <span className="text-slate-500 font-medium">Google Maps Integration</span>
+                            <div className="absolute inset-0 bg-slate-200 flex items-center justify-center">
+                                <span className="text-slate-400 font-medium">Mapa Google (Placeholder)</span>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>

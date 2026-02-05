@@ -6,34 +6,34 @@ import { cn } from "../../lib/utils"
 export function FAQ() {
     const faqs = [
         {
-            question: "Do you accept health insurance?",
-            answer: "I work as a private practitioner but provide receipts for reimbursement. Many insurance plans cover a significant portion of the session fee through their reimbursement policies.",
+            question: "O que posso esperar da primeira sessão?",
+            answer: "A primeira sessão é uma oportunidade para nos conhecermos. Discutiremos o que o traz à terapia, sua história e seus objetivos. É um espaço seguro para fazer perguntas e ver se nos encaixamos bem.",
         },
         {
-            question: "How long is each session?",
-            answer: "Standard individual therapy sessions last 50 minutes. This ensures we have enough time to cover meaningful ground while respecting your schedule and cognitive load.",
+            question: "Quanto tempo dura cada sessão?",
+            answer: "As sessões normalmente duram 50 minutos. Começamos com um check-in, estabelecemos uma pauta para o tempo juntos, trabalhamos nas questões principais e revisamos o que levar para a semana.",
         },
         {
-            question: "Is online therapy as effective as in-person?",
-            answer: "Yes, research consistently shows that online CBT is just as effective as face-to-face therapy for anxiety and depression. It also offers the convenience of joining from your own safe space.",
+            question: "Aceita convênios?",
+            answer: "Atualmente, meu consultório é particular. Posso fornecer um recibo (superbill) que você pode enviar ao seu convênio para possível reembolso, dependendo do seu plano.",
         },
         {
-            question: "What is your cancellation policy?",
-            answer: "I require a 24-hour notice for cancellations. This allows me to offer the time slot to another client who might be waiting.",
+            question: "A terapia é confidencial?",
+            answer: "Absolutamente. A confidencialidade é a base da terapia. O que compartilhamos permanece privado, com algumas excepções legais relacionadas à segurança imediata que discutiremos na nossa primeira reunião.",
         },
     ]
 
     const [openIndex, setOpenIndex] = useState<number | null>(0)
 
     return (
-        <section id="faq" className="bg-white py-24 sm:py-32">
+        <section id="faq" className="bg-slate-50 py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center mb-16">
                     <h2 className="text-3xl font-bold tracking-tight text-primary-dark sm:text-4xl font-heading mb-4">
-                        Frequently Asked Questions
+                        Perguntas Frequentes
                     </h2>
-                    <p className="text-lg leading-8 text-slate-600">
-                        Clear answers to help you make an informed decision.
+                    <p className="text-lg leading-8 text-slate-600 font-body">
+                        Respostas para perguntas comuns sobre o processo terapêutico.
                     </p>
                 </div>
 

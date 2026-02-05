@@ -8,26 +8,26 @@ export function About() {
 
                     <div className="lg:order-2">
                         <h2 className="text-3xl font-bold tracking-tight text-primary-dark sm:text-4xl font-heading mb-6">
-                            A Safe Space for Your Journey
+                            Um Espaço Seguro para sua Jornada
                         </h2>
                         <div className="space-y-6 text-lg leading-8 text-slate-600 font-body">
                             <p>
-                                Hello, I'm <span className="font-semibold text-primary">Dr. Name</span>.
-                                My practice is built on the belief that everyone has the capacity for change and growth.
+                                Olá, eu sou <span className="font-semibold text-primary">Dr. Nome</span>.
+                                Minha prática é construída na crença de que todos têm a capacidade de mudança e crescimento.
                             </p>
                             <p>
-                                With over 10 years of experience in clinical psychology, I combine the scientific rigor of
-                                Cognitive Behavioral Therapy with a warm, non-judgmental approach. I understand that taking
-                                the first step towards therapy can be daunting, which is why I prioritize creating a
-                                structured yet flexible environment where you feel heard and understood.
+                                Com mais de 10 anos de experiência em psicologia clínica, combino o rigor científico da
+                                Terapia Cognitivo-Comportamental com uma abordagem calorosa e sem julgamentos. Entendo que dar
+                                o primeiro passo para a terapia pode ser intimidante, por isso priorizo criar um
+                                ambiente estruturado, mas flexível, onde você se sinta ouvido e compreendido.
                             </p>
                             <p>
-                                My goal is isn't just to help you feel better in the short term, but to equip you with
-                                lifelong tools to navigate future challenges independently.
+                                Meu objetivo não é apenas ajudá-lo a se sentir melhor a curto prazo, mas equipá-lo com
+                                ferramentas para a vida toda para enfrentar desafios futuros de forma independente.
                             </p>
                         </div>
                         <div className="mt-8">
-                            <Button variant="outline">Read Full Bio</Button>
+                            <Button variant="outline">Ler Biografia Completa</Button>
                         </div>
                     </div>
 

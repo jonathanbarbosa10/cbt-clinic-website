@@ -10,21 +10,21 @@ export function Hero() {
                     <div className="max-w-2xl">
                         <div className="inline-flex items-center rounded-full border border-secondary/50 bg-secondary/10 px-3 py-1 text-sm font-medium text-teal-800 mb-6">
                             <span className="flex h-2 w-2 rounded-full bg-secondary mr-2"></span>
-                            Accepting New Patients
+                            Aceitando Novos Pacientes
                         </div>
                         <h1 className="text-4xl font-bold tracking-tight text-primary-dark sm:text-5xl lg:text-6xl mb-6 font-heading">
-                            Evidence-Based Therapy for <span className="text-primary">Clarity & Growth</span>
+                            Terapia Baseada em Evidências para <span className="text-primary">Clareza e Evolução</span>
                         </h1>
                         <p className="text-lg leading-8 text-slate-600 mb-8 font-body">
-                            Reconnect with your true self through Cognitive Behavioral Therapy (CBT).
-                            A scientific, empathetic approach to overcoming anxiety, burnout, and life transitions.
+                            Reconecte-se com sua verdadeira essência através da Terapia Cognitivo-Comportamental (TCC).
+                            Uma abordagem científica e empática para superar ansiedade, burnout e transições de vida.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 mb-12">
                             <Button size="lg" variant="accent" className="font-semibold text-lg">
-                                Schedule Consultation
+                                Agendar Consulta
                             </Button>
                             <Button size="lg" variant="outline" className="text-lg group">
-                                Learn Methodology
+                                Conheça a Metodologia
                                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                             </Button>
                         </div>
@@ -32,11 +32,11 @@ export function Hero() {
                         <div className="flex items-center gap-6 text-sm text-slate-500">
                             <div className="flex items-center gap-2">
                                 <CheckCircle2 className="h-5 w-5 text-secondary-DEFAULT" />
-                                <span>Licensed Psychologist</span>
+                                <span>Psicólogo(a) Credenciado(a)</span>
                             </div>
                             <div className="flex items-center gap-2">
                                 <CheckCircle2 className="h-5 w-5 text-secondary-DEFAULT" />
-                                <span>Online & In-Person</span>
+                                <span>Online e Presencial</span>
                             </div>
                         </div>
                     </div>
@@ -46,10 +46,10 @@ export function Hero() {
                         <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-slate-100 shadow-xl">
                             {/* Placeholder for Professional Photo */}
                             <div className="absolute inset-0 flex items-center justify-center bg-slate-200 text-slate-400">
-                                <span className="text-lg font-medium">Professional Photo Placeholder</span>
+                                <span className="text-lg font-medium">Foto Profissional (Placeholder)</span>
                             </div>
                             {/* Optional: Add an actual image tag later */}
-                            {/* <img src="..." alt="Psychologist Portrait" className="object-cover w-full h-full" /> */}
+                            {/* <img src="..." alt="Retrato do Psicólogo" className="object-cover w-full h-full" /> */}
                         </div>
 
                         {/* Decorative Element */}

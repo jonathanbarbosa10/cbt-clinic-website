@@ -12,7 +12,7 @@ export function Authority() {
                         </div>
                         <div>
                             <p className="font-heading font-semibold text-primary-dark">CRP 00/00000</p>
-                            <p className="text-xs text-slate-500">Licensed Psychologist</p>
+                            <p className="text-xs text-slate-500">Psicólogo(a) Credenciado(a)</p>
                         </div>
                     </div>
 
@@ -21,8 +21,8 @@ export function Authority() {
                             <GraduationCap className="h-5 w-5" />
                         </div>
                         <div>
-                            <p className="font-heading font-semibold text-primary-dark">Specialist in CBT</p>
-                            <p className="text-xs text-slate-500">Neuropsychology Expert</p>
+                            <p className="font-heading font-semibold text-primary-dark">Especialista em TCC</p>
+                            <p className="text-xs text-slate-500">Mestre em Neuropsicologia</p>
                         </div>
                     </div>
 
@@ -31,8 +31,8 @@ export function Authority() {
                             <Building2 className="h-5 w-5" />
                         </div>
                         <div>
-                            <p className="font-heading font-semibold text-primary-dark">Private Practice</p>
-                            <p className="text-xs text-slate-500">Founded 2026</p>
+                            <p className="font-heading font-semibold text-primary-dark">Consultório Particular</p>
+                            <p className="text-xs text-slate-500">Fundado em 2026</p>
                         </div>
                     </div>
 

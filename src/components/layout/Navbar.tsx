@@ -6,10 +6,10 @@ export function Navbar() {
     const [isOpen, setIsOpen] = useState(false)
 
     const navLinks = [
-        { name: "Methodology", href: "#methodology" },
-        { name: "Areas of Focus", href: "#areas" },
-        { name: "About", href: "#about" },
-        { name: "FAQ", href: "#faq" },
+        { name: "Metodologia", href: "#methodology" },
+        { name: "Áreas de Atuação", href: "#areas" },
+        { name: "Sobre", href: "#about" },
+        { name: "Dúvidas", href: "#faq" },
     ]
 
     return (
@@ -17,7 +17,7 @@ export function Navbar() {
             <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center">
                     <a href="#" className="font-heading text-xl font-bold text-primary-dark">
-                        Dr. Name <span className="text-secondary-DEFAULT font-light">Psychologist</span>
+                        Dr. Nome <span className="text-secondary-DEFAULT font-light">Psicólogo(a)</span>
                     </a>
                 </div>
 
@@ -33,7 +33,7 @@ export function Navbar() {
                         </a>
                     ))}
                     <Button variant="accent" size="sm">
-                        Book Consultation
+                        Agendar Consulta
                     </Button>
                 </div>
 
@@ -44,7 +44,7 @@ export function Navbar() {
                         className="text-slate-600 hover:text-primary-dark"
                         onClick={() => setIsOpen(!isOpen)}
                     >
-                        <span className="sr-only">Open main menu</span>
+                        <span className="sr-only">Abrir menu principal</span>
                         {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
                     </button>
                 </div>
@@ -66,7 +66,7 @@ export function Navbar() {
                         ))}
                         <div className="mt-4 px-3">
                             <Button variant="accent" className="w-full">
-                                Book Consultation
+                                Agendar Consulta
                             </Button>
                         </div>
                     </div>
