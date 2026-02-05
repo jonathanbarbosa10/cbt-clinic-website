@@ -23,8 +23,9 @@ export function Contact() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-semibold text-primary-dark">Localização</h3>
-                                    <p className="text-slate-600">Rua Exemplo, 123, Sala 405</p>
-                                    <p className="text-slate-600">Bairro Central, Cidade, UF</p>
+                                    <p className="text-slate-600">Edificio Ars Cvrandi</p>
+                                    <p className="text-slate-600">Av. Alpheu Grimello, 390 - Taboão</p>
+                                    <p className="text-slate-600">Bragança Paulista - SP, 12916-010</p>
                                 </div>
                             </div>
 
@@ -70,9 +71,14 @@ export function Contact() {
                     {/* Map Placeholder */}
                     <div className="h-full min-h-[400px] w-full rounded-2xl bg-white p-4 shadow-lg ring-1 ring-slate-900/5">
                         <div className="h-full w-full rounded-xl bg-slate-100 flex items-center justify-center relative overflow-hidden group">
-                            <div className="absolute inset-0 bg-slate-200 flex items-center justify-center">
-                                <span className="text-slate-400 font-medium">Mapa Google (Placeholder)</span>
-                            </div>
+                            <iframe
+                                width="100%"
+                                height="100%"
+                                style={{ border: 0 }}
+                                loading="lazy"
+                                allowFullScreen
+                                src="https://maps.google.com/maps?q=Edificio%20Ars%20Cvrandi%20-%20Av.%20Alpheu%20Grimello%2C%20390%20-%20Tabo%C3%A3o%2C%20Bragan%C3%A7a%20Paulista%20-%20SP&t=&z=15&ie=UTF8&iwloc=&output=embed">
+                            </iframe>
                         </div>
                     </div>
                 </div>
